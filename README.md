@@ -11,7 +11,7 @@ Whether you're managing data or simply checking your document counts, everything
 And, because I wanted to make it as user-friendly as possible, I've included links to all the ChromaDB documentation, helpful resources, and even other GitHub projects to inspire your journey.
 
 alterntaive projects you should also check out if you havent:
-https://chroma-ui.vercel.app/
-https://github.com/Pawandeep-prog/chroma-peek
-https://github.com/msteele3/chromagraphic
-https://github.com/Mintplex-Labs/vector-admin
+https://chroma-ui.vercel.app/ <Br>
+https://github.com/Pawandeep-prog/chroma-peek <Br>
+https://github.com/msteele3/chromagraphic <br>
+https://github.com/Mintplex-Labs/vector-admin <bR>
