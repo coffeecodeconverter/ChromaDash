@@ -10,7 +10,7 @@ With ChromaDash, you can easily view, add, delete, and edit collections and docu
 Whether you're managing data or simply checking your document counts, everything is just a click away. 
 And, because I wanted to make it as user-friendly as possible, I've included links to all the ChromaDB documentation, helpful resources, and even other GitHub projects to inspire your journey.
 
-alterntaive projects you should also check out if you havent:
+alterntaive projects you should also check out if you havent: <Br>
 https://chroma-ui.vercel.app/ <Br>
 https://github.com/Pawandeep-prog/chroma-peek <Br>
 https://github.com/msteele3/chromagraphic <br>
