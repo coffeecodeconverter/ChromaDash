@@ -1,4 +1,5 @@
 Introducing ChromaDash, a hassle-free dashboard for ChromaDB
+![image](https://github.com/user-attachments/assets/825d1302-73ab-4857-aa0b-f2647903ba06)
 
 I built ChromaDash with a singular goal: to make managing your ChromaDB as simple and smooth as possible. 
 You don’t need to mess with dependencies, install Python or Node.js, or worry about complicated setups, in order to view or manage your Vector Database.  
@@ -23,4 +24,4 @@ https://github.com/Mintplex-Labs/vector-admin <bR>
 for ANY ChromaDB Questions, or troubleshooting, i HIGHLY recommend you check this out:
 https://wiki.mutable.ai/chroma-core/chroma
 
-![image](https://github.com/user-attachments/assets/825d1302-73ab-4857-aa0b-f2647903ba06)
+
