@@ -22,3 +22,5 @@ https://github.com/Mintplex-Labs/vector-admin <bR>
 
 for ANY ChromaDB Questions, or troubleshooting, i HIGHLY recommend you check this out:
 https://wiki.mutable.ai/chroma-core/chroma
+
+![image](https://github.com/user-attachments/assets/825d1302-73ab-4857-aa0b-f2647903ba06)
