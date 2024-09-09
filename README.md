@@ -1,6 +1,6 @@
 Introducing ChromaDash, a hassle-free dashboard for ChromaDB
 
-![image](https://github.com/user-attachments/assets/825d1302-73ab-4857-aa0b-f2647903ba06)
+![image](https://github.com/user-attachments/assets/78046edf-7ab1-4b5f-8177-136e4b7c753d)
 
 I built ChromaDash with a singular goal: to make managing your ChromaDB as simple and smooth as possible. 
 You don’t need to mess with dependencies, install Python or Node.js, or worry about complicated setups, in order to view or manage your Vector Database.  
