@@ -16,33 +16,17 @@ With ChromaDash, you can easily:
 Whether you're managing data or simply checking your document counts, everything is just a click away. 
 And, because I wanted to make it as user-friendly as possible, I've included links to all the ChromaDB documentation, helpful resources, and even other GitHub projects to inspire your journey.
 
-ChromaDash interacts with chromaDB using the FastAPI only, which has some limitations. 
-namely, the FasAPI doesnt have the ability to generate embeddings automatically - you only have the option to provide your own generated embeddings. 
-however, this is pointless unless you're intending to use your own embedding model outside of chromaDB. 
-for some reason, the embedding functions are only included in the client libraries (in python or node.js) and are omitted from the FastAPI. 
-Therefore, although ChromaDB can add documents, its advisable not to - simply becasue they'll be in plain text, which you cant do vector searches on. 
-But you can do plain text searches. 
+ChromaDash interacts with ChromaDB exclusively through FastAPI, which presents several limitations. Notably, FastAPI lacks the capability to automatically generate embeddings; it only allows you to provide pre-generated embeddings. This limitation is problematic unless you intend to use a custom embedding model outside of ChromaDB. Embedding functions are available only in client libraries (in Python or Node.js) and are not included in FastAPI. Consequently, while ChromaDash can add documents, it's advisable not to do so because they will be stored in plain text, which is unsuitable for vector searches. However, plain text searches are still possible.
 
-The annoyance here, is that effectivly - the devs at Chroma have built their server in python, exposed a FastAPI for it, but then left out some KEY funcitons, like embedding generation. 
-When you enquire about this, you're told you need to write your own client, from scratch, and expose the embedding functions through an API yourself.
-but hold on....why cant they just do that!? 
-it seems dumb to me, that they've already written a server, and client libraires, and 98% of a fastAPI, only to then tell you as the end user / end developer to not finihs off that last 2%, but to actually have to RE-WRITE the first 98% yourself FIRST, before you can then add the last 2%!! its madness! 
-the other option, seeing as chromaDB is open-source, is to fork it, and add the extra functionality yourself. 
-i have no idea how to do this. maybe someone else will? 
-thats all it needs. 
-if the FastAPI was as functional as the client libraires, you'd have more flexibilty - you could create a UI in ANY language that supports HTTP requests, inlcuding standard HTML and javascript, which is cross-platform an requires no dependancies. 
+The frustration here is that Chroma's developers have created a Python-based server and exposed a FastAPI for it but have omitted critical functions such as embedding generation. When inquiring about this, you are advised to write your own client from scratch and expose the embedding functions through your API. It seems illogical that after developing the server, client libraries, and 98% of FastAPI, users are expected to recreate the remaining 2% themselves before they can add the final functionality. This approach feels inefficient and convoluted.
 
-this whole approach is even more annoying when you find the chorma devs havent release an offical management tool or GUI of their own. 
-hence why i created this project. 
-but it wasnt until i got over 80% of the way through my idea before realising the FastAPI is limited! (kick in the teeth) 
+Another option, given that ChromaDB is open-source, is to fork it and add the missing functionality yourself. However, this requires knowledge that I currently lack—perhaps someone else might be able to contribute.
 
-all i see is multiple devs repeating the same steps over and over and all getting stuck at the same point with no progress. 
-if they want to see bigger adoption of this, it needs to be made easier - MUCH easier. 
-ChromaDash is one attempt at this. 
-but alas, i cant bring it up to its full potential given the underlying limitations. 
-still, its a helpful "viewer" tool thats quick and easy to use. It can certainly help you get an insight to your chroma database, and may help you co-develop other chroma tools. 
-i wish it could be made more useful. 
-hopefully helps someone out along the way. 
+If FastAPI were as functional as the client libraries, you would have more flexibility. This would allow you to create a user interface in any language that supports HTTP requests, including standard HTML and JavaScript, which are cross-platform and require no additional dependencies.
+
+The situation is further frustrating because Chroma's developers have not released an official management tool or GUI. This gap is why I developed this project. Unfortunately, I only realized the limitations of FastAPI when I was over 80% through my project, which was a significant setback.
+
+It appears that many developers encounter the same obstacles repeatedly with no progress. For ChromaDB to gain wider adoption, the process needs to be made significantly easier. ChromaDash represents one attempt to address this, but its potential is limited by the underlying constraints. Nevertheless, it remains a useful "viewer" tool that is quick and easy to use. It can provide insights into your Chroma database and assist in the development of other Chroma tools. I hope it proves helpful to others despite its limitations.
 
 alternative projects you should also check out if you havent: <Br>
 https://chroma-ui.vercel.app/ <Br>
