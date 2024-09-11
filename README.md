@@ -37,4 +37,11 @@ https://github.com/Mintplex-Labs/vector-admin <bR>
 for ANY ChromaDB Questions, or troubleshooting, i HIGHLY recommend you check this out:
 https://wiki.mutable.ai/chroma-core/chroma
 
+Tags:
+#chromadash #chromadb ui
+#chroma ui 
+#chromadb ui 
+#chroma dash 
+#ui for chroma
+#ui for chromaDB
 
