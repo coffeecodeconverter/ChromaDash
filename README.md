@@ -37,6 +37,9 @@ https://github.com/Mintplex-Labs/vector-admin <bR>
 for ANY ChromaDB Questions, or troubleshooting, i HIGHLY recommend you check this out:
 https://wiki.mutable.ai/chroma-core/chroma
 
+other tools - document stripper to plain text in batches 
+https://github.com/coffeecodeconverter/DocStrip
+
 Tags:
 #chromadash #chromadb ui
 #chroma ui 
