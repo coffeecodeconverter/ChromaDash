@@ -34,6 +34,7 @@ chroma run --path C:\Program Files\ChromaDB\Data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Which defaults to listening on **http://127.0.0.1:8000**
 <br>
+<Br>
 
 3. Add a system environment variable:
 ~~~~~~~~~~~~~~~~~~
