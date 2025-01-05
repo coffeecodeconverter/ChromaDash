@@ -44,6 +44,7 @@ CHROMA_SERVER_CORS_ALLOW_ORIGINS
 value
 ["*"]
 ~~~~~~~~~~~~~~~~~~
+<Br>
 
 4. download ChromaDash's **index.html**
 and run it!
